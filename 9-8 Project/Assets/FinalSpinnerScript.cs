@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Test : MonoBehaviour
+public class FinalSpinnerScript : MonoBehaviour
 {
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Rotate(0,0,.04f);
     }
 }
